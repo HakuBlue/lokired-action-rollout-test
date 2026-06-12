@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   lokired:
-    name: LokiRed permission review
+    name: LokiRed policy check
     runs-on: ubuntu-latest
 
     steps:
@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Summarize AI-agent permission changes
+      - name: Check AI-agent permission changes
         uses: HakuBlue/LokiRed@v0.2.0
         with:
           mode: policy-check
