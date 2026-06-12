@@ -7,7 +7,7 @@
   "sandbox": {
     "filesystem": {
       "allowWrite": [
-        "${workspaceFolder}"
+        "/"
       ]
     }
   }
