@@ -1,0 +1,20 @@
+{
+  "servers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${workspaceFolder}"
+      ]
+    }
+  },
+  "sandbox": {
+    "filesystem": {
+      "allowWrite": [
+        "${workspaceFolder}"
+      ]
+    }
+  }
+}
