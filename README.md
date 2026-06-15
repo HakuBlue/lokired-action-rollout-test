@@ -1,4 +1,4 @@
-# LokiRed Action Rollout Test
+# LokiRed Action Rollout Test.
 
 Synthetic repository used to measure first-time LokiRed GitHub Action installation.
 
