@@ -1,5 +1,5 @@
 {
-  "servers": {a
+  "servers": {
     "filesystem": {
       "type": "stdio"
     }
