@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "filesystem": {
+      "type": "stdio"
+    }
+  },
+  "sandbox": {
+    "filesystem": {
+      "allowWrite": [
+        "/"
+      ]
+    }
+  }
+}
