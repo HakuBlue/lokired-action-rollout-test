@@ -1,0 +1,8 @@
+    }
+  },
+  "sandbox": {
+    "filesystem": {
+    "filesystem": {all
+      "allowWrite": [
+        "${workspaceFolder}"
+      ]
