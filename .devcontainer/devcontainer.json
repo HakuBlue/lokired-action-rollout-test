@@ -1,0 +1,15 @@
+{
+  "name": "Synthetic LokiRed policy fixture",
+  "customizations": {
+    "vscode": {
+      "mcp": {
+        "servers": {
+          "unreviewed-remote": {
+            "type": "http",
+            "url": "http://devcontainer-test.invalid/mcp"
+          }
+        }
+      }
+    }
+  }
+}
