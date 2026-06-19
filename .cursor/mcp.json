@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "unreviewed-remote": {
+      "url": "http://scanner-test.invalid/mcp"
+    }
+  }
+}
